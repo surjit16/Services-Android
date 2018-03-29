@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context="com.example.surji.androidservices.MainActivity">
+
+    <Button
+        android:id="@+id/startServ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service"
+        android:onClick="dothis"/>
+    <Button
+        android:id="@+id/stopServ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Service"
+        android:onClick="dothis"/>
+    <Button
+        android:id="@+id/boundServ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bound Service"
+        android:onClick="dothis"/>
+    <Button
+        android:id="@+id/unbindServ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unbind Bound Service"
+        android:onClick="dothis"/>
+    <Button
+        android:id="@+id/intentServ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent Service"
+        android:onClick="dothis"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
